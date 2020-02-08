@@ -68,6 +68,9 @@ def cal_avg_p_r(arr_true, arr_pred):
         rs.append(r)
     return np.average(ps), np.average(rs), len(ps), ps, rs
 
+# ........ some code ignored ...............
+PATH = save_path
+bi_gru.load_state_dict(torch.load(PATH))
 
 val_true, val_pred = predict_res(bi_gru, val_loader, device)
 
