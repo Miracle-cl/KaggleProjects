@@ -10,3 +10,6 @@ The types of toxicity are:
 
 
 Create a model (Logistics Regression, LSTM-Attention) which predicts a probability of each type of toxicity for each comment.
+
+
+Create a model (BiGRU) by pytorch.
